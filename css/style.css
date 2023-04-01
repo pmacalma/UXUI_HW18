@@ -1,0 +1,299 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    padding-top: 5px;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    position: relative;
+    /* outline:red 1px solid; */
+    }
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
+    background-size: cover;
+    justify-content: space-between;
+    padding: 40px 10% 40px 10%;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px 40px;
+
+}
+
+.navBar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navBar ul li a:hover {
+    color:rgb(255, 255, 255)
+}
+
+.text {
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 275px;
+    line-height: 52px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.heroImg {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    opacity: 90%;
+}
+
+span {
+    color:rgba(26, 76, 145, 0.9);
+}
+
+.process { 
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    align-items: left;
+    /* outline: 2px solid red; */
+}
+
+.mySkillsTitle {
+    text-align: left;
+    font-size: 75px;
+    color: rgba(26, 76, 145, 0.9);
+    padding-left: 125px;
+}
+
+.mySkillsText {
+    font-size: 20px;
+}
+
+.processItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.mySkills {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(26, 76, 145, 0.9);
+}
+
+.researchContainer {
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.research {
+    height: 200px;
+}
+
+.defineContainer {
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.define {
+    height: 200px;
+}
+
+.ideateContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.ideate {
+    height: 200px;
+}
+
+.prototypeContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.prototype {
+    height: 200px;
+}
+
+.testContainer {
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.test {
+    height: 200px;
+    color: rgba(26, 76, 145, 0.9);
+}
+
+.project1 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 76, 145, 0.9);
+}
+
+.piHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText {
+    width: 40%;
+    margin-right: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px; 
+    color: white;
+}
+
+.btnBlue {
+    background-color: rgba(26, 76, 145, 0.9);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnBlue:hover {
+    background-color: rgba(26, 76, 145, 0.8);
+    color: white;
+    outline: rgba(26, 76, 145, 0.8) 1px solid;
+}
+
+.btnWhite {
+    background-color: white;
+    color: rgba(26, 76, 145, 0.9);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btnWhite:hover {
+    background-color: rgb(225, 225, 225);
+    color: rgba(26, 76, 145, 1);
+    outline: white 1px solid;
+}
+
+.project2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ffHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText2 {
+    width: 40%;
+    margin-left: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px;
+    color:rgba(26, 76, 145, 0.9)
+}
+
+.project3 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(26, 76, 145, 0.9);
+}
+
+.oyHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText3 {
+    width: 40%;
+    margin-right: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px; 
+    color: white;
+}
+
+.project4 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cosHome {
+    height: 500px;
+    padding: 100px;
+}
+
+.projectText4 {
+    width: 40%;
+    margin-left: 200px;
+    padding: 25px 10px 25px 10px;
+    line-height: 52px;
+    color:rgba(26, 76, 145, 0.9)
+}
+
+.footer {
+    background-color:rgba(26, 76, 145, 0.9);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb_logo {
+    height: 40px;
+    padding: 40px;
+}
+
+.ig_logo {
+    height: 40px;
+    padding: 40px;
+}
+
+.li_logo {
+    height: 40px;
+    padding: 40px;
+}
+
